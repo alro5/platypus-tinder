@@ -55,7 +55,7 @@ function App() {
       <div className="cards">
         <ul ref={cardListRef}>
           {users.map((user, index) => {
-            return <li className="card" key={index}>
+            return <li className={"card"} key={index}>
               <img src={user.picture.large} alt={user.name.first} />
               <div className="card__content">
                 <p>{user.name.first}, {user.dob.age}</p>
