@@ -1,0 +1,27 @@
+@import "./variables.scss";
+@import "./cards.scss";
+@import "./buttons.scss";
+
+.app {
+  text-align: center;
+  padding: 40px;
+
+  @media screen and (max-width: 560px) {
+    padding: 40px 20px;
+  }
+
+  h1 {
+    font-size: 56px;
+    line-height: 100%;
+    font-weight: 500;
+    margin: 0;
+
+    @media screen and (max-width: 560px) {
+      font-size: 40px;
+    }
+
+    span {
+      color: $color-primary;
+    }
+  }
+}
